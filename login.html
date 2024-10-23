@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Fitness Alliance</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar starting -->
+    <section>
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: rgb(0, 0, 0)"
+      >
+        <div class="container-fluid">
+          <div class="logo" style="display: flex">
+            <img
+              src="Images/Main Logo.png"
+              alt="Main Logo"
+              style="height: 70px; border-radius: 8px"
+            />
+            <img
+              src="Images/BrandName.png"
+              alt="BrandName"
+              style="height: 60px; margin-left: 10px"
+            />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                style="
+                  color: white;
+                  margin-left: 160px;
+                  margin-top: 14px;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                "
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="MemberShip.html"
+                style="
+                  color: white;
+                  margin-top: 14px;
+                  margin-left: 15px;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                "
+                >MEMBERSHIP</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                style="
+                  color: white;
+                  margin-top: 14px;
+                  margin-left: 10px;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                "
+                >CONTACT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="join us.html">
+                <button
+                  type="button"
+                  class="btn"
+                  style="
+                    margin-top: 8px;
+                    margin-left: 25px;
+                    height: 45px;
+                    width: 110px;
+                    border-radius: 5px;
+                    background-color: rgb(160, 115, 2);
+                    color: white;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-size: large;
+                  "
+                >
+                  <b>Join Now</b>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- navbar ending -->
+
+    <!-- Login -->
+    <section style="margin: 10%">
+      <div
+        class="login"
+        style="
+          position: relative;
+          display: flex;
+          height: 62vb;
+          width: 40%;
+          margin-left: 30%;
+          margin-top: -50px;
+          border: 2px solid rgba(0, 0, 0, 0.074);
+          box-shadow: 0px 4px 8px 8px #00000034;
+          border-width: 5px;
+          border-color: black;
+          background-color: rgba(160, 133, 65, 0.163);
+          border-radius: 15px;
+        "
+      >
+        <div
+          class="SignHeading"
+          style="
+            position: absolute;
+            display: inline;
+            padding: 2px 2px;
+            width: 100%;
+            height: 30px;
+          "
+        >
+          <p
+            style="
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+              color: rgb(101, 79, 22);
+              font-weight: 700;
+              font-size: larger;
+              margin: 25px 43%;
+            "
+          >
+            Login
+          </p>
+        </div>
+        <form
+          action="index.html"
+          style="position: relative; width: 70%; margin: 10% 15%; height: auto"
+        >
+          <label for="Username" placeholder="Username"></label>
+          <input
+            type="text"
+            style="
+              border: none;
+              border: 2px solid rgba(142, 102, 3, 0.469);
+              height: 40px;
+              width: 90%;
+              margin: 5% 5%;
+              border-radius: 8px;
+            "
+            placeholder="Username / Email"
+            required
+          />
+          <label for="Password"></label>
+          <input
+            type="password"
+            style="
+              border: none;
+              border: 2px solid rgba(142, 102, 3, 0.469);
+              height: 40px;
+              width: 90%;
+              margin-top: 5%;
+              margin-left: 3%;
+              margin-bottom: 10%;
+              border-radius: 8px;
+            "
+            required
+            placeholder="Password"
+          /><br />
+          <div
+            class="loginfield"
+            style="display: flex; width: 100%; margin-left: 5%; margin-top: -6%"
+          >
+            <p style="margin-right: 10px">Not Registered?</p>
+            <a
+              href="join us.html"
+              style="text-decoration: none; color: rgb(160, 115, 2)"
+            >
+              <b>Sign up</b>
+            </a>
+          </div>
+          <input
+            type="checkbox"
+            style="margin-top: -10%; margin-left: 5%; margin-bottom: 4%"
+          />Remember me
+          <button
+            type="submit"
+            class="btn btn-primary btn-sm"
+            style="
+              position: relative;
+              background-color: rgb(160, 115, 2);
+              border-color: rgb(160, 115, 2);
+              width: 90%;
+              height: 40px;
+              margin-left: 5%;
+              border-radius: 10px;
+              font-size: large;
+            "
+            action
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section for Downloading -->
+    <footer>
+      <img
+        src="Images/Downloading Picture.png"
+        alt="Downloading Picture"
+        style="height: 468.5px; width: 100%"
+        ;
+      />
+    </footer>
+    <!-- Section for Downloading Ending-->
+
+    <!-- Section for Black Line -->
+    <section style="height: 8px; background-color: black"></section>
+    <!-- Section for Golden Line -->
+  </body>
+</html>
